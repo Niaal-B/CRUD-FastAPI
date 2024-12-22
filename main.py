@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import Optional
 from random import randrange
       
-app = FastAPI()
+app = FastAPI() 
   
 class Post(BaseModel):
     title : str
