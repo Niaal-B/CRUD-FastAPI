@@ -12,7 +12,7 @@ class Post(BaseModel):
     published : bool = True
     rating : Optional[int] = None
 
-
+ 
 
 my_posts = [{"title" : "title of post" , "content" : "content of post 1" , "id": 1 },
 {"title" : "Favorite Food" , "content" : "Favorite of Food is Biriyani" , "id": 2 }]
