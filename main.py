@@ -11,7 +11,7 @@ class Post(BaseModel):
     content : str
     published : bool = True
     rating : Optional[int] = None
-
+ 
  
 
 my_posts = [{"title" : "title of post" , "content" : "content of post 1" , "id": 1 },
