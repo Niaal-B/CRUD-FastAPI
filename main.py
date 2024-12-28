@@ -3,7 +3,7 @@ from fastapi.params import Body
 from pydantic import BaseModel
 from typing import Optional
 from random import randrange
-        
+         
 app = FastAPI()  
      
 class Post(BaseModel):
